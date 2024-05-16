@@ -14,11 +14,11 @@ The BeeFreeAgro API provides access to data about drones manufactured by BeeFree
 
 - Retrieves information about all available drones. 
 
-1. GET Drone By Model : **GET /drones/{drone\_code}**
+2. GET Drone By Model : **GET /drones/{drone\_code}**
 
 - Retrieves information about a specific drone identified by its model code.
 
-1. GET Drone Image : **GET /drones/{drone\_code}/image**
+3. GET Drone Image : **GET /drones/{drone\_code}/image**
 - Retrieves the image of a specific drone identified by its model code.
 
 **Usage**
