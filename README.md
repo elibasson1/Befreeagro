@@ -64,3 +64,6 @@ Since this project operates within a virtual environment using Python, follow th
 1. Run the command **activate.bat**.
 1. Return to the directory **Beefree\Tests**
 1. Execute the command **pytest -v -s**
+
+**Notes**
+**Install all dependencies from it: pip install -r requirements.txt, make sure pip belongs to your virtualenv python other than OS default pip**
