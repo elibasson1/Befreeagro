@@ -72,6 +72,7 @@ This file contains tests related to retrieving a list of all drones.
 - **test\_dronesCount**: Verifies that the API returns the expected number of drones.
 - **test\_responseTime**: Checks that the API responds within 2 seconds.
 - **test\_nonEmptyResponse**: Asserts that the response contains data and is not empty.
+- **test\test_uniqueDroneIDs**:This test extracts the id field from each drone and ensures all IDs are unique by comparing the list length with the length of the set of IDs.
 
 **Running Tests**
 
