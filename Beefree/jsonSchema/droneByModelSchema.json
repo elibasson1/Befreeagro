@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "drone_code": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "range": {
+      "type": "number"
+    },
+    "release_date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "cameras": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "megapixels": {
+            "type": "number"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["Color", "Thermal", "Zoom", "Multi-Spectral"]
+          }
+        },
+        "required": ["name", "megapixels", "type"]
+      }
+    }
+  },
+  "required": ["drone_code", "name", "range", "release_date", "cameras"]
+}
